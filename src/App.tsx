@@ -28,21 +28,21 @@ const COLLECTION_ITEMS = [
     subtitle: 'Genesis Unit',
     score: '8.7/10',
     media:
-      '/public/media/character-01.mp4',
+      'public/media/character-01.mp4',
   },
   {
     title: 'Orbit Keeper',
     subtitle: 'Signal Class',
     score: '9.0/10',
     media:
-      '/public/media/character-02.mp4',
+      'public/media/character-02.mp4',
   },
   {
     title: 'Nova Shell',
     subtitle: 'Silent Type',
     score: '8.2/10',
     media:
-      '/public/media/character-03.mp4',
+      'public/media/character-03.mp4',
   },
 ];
 
@@ -185,7 +185,7 @@ export default function App() {
             className="absolute inset-0 h-full w-full object-cover"
           >
             <source
-              src="/public/media/hero-video.mp4"
+              src="public/media/hero-video.mp4"
               type="video/mp4"
             />
           </video>
@@ -290,7 +290,7 @@ export default function App() {
             className="absolute inset-0 h-full w-full object-cover"
           >
             <source
-              src="/public/media/middle.mp4"
+              src="public/media/middle.mp4"
               type="video/mp4"
             />
           </video>
@@ -474,7 +474,7 @@ export default function App() {
             className="block h-auto w-full"
           >
             <source
-              src="/public/media/contact.mp4"
+              src="public/media/contact.mp4"
               type="video/mp4"
             />
           </video>
